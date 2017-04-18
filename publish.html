@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>发布房源</title>
+    <link rel="stylesheet" href="css/publish.css">
+    <link rel="stylesheet" href="font/iconfont.css">
+
+</head>
+
+<body>
+    <div class="top">
+        <div class="inner">
+            <div class="logo-top"></div>
+            <div class="DivCitySelect h">
+                <div id="city-select">南京</div>
+                <div id="btn-select" class="iconfont">&#xe6a5;</div>
+            </div>
+            <div class="DivCitySelectExtend">
+                <div class="DivCitySelectExtend-divafter"></div>
+                <div class="DivCitySelectExtend-divbefore"></div>
+                <div></div>
+                <div class="inner">
+                    <span class="cities">南京</span>
+                    <span class="cities">苏州</span>
+                    <span class="cities">无锡</span>
+                    <span class="cities">合肥</span>
+                    <span class="cities">西安</span>
+                    <span class="cities">杭州</span>
+                    <span class="cities">芜湖</span>
+                </div>
+
+            </div>
+            <div class="navs">
+                <span class="nav">首页</span>
+                <span class="nav">爱租找房</span>
+                <span class="nav">地图找房</span>
+                <span class="nav">爱租金融</span>
+            </div>
+            <div class="functions">
+                <span class="function">
+                    <span class="icon iconfont">&#xe626;</span> 手机爱租
+                </span>
+                <span class="function">公寓登录</span>
+                <span class="function first">用户登录</span>
+            </div>
+
+        </div>
+    </div>
+    <div class="topline"></div>
+    <div class="main">
+        <div class="current-position">您的当前位置：爱租哪 > 个人中心 > 发布房源</div>
+        <div class="lists">
+            <div class="menu1">
+                <div class="item1">账户管理</div>
+                <div class="menu2">
+                    <div class="item2">个人资料</div>
+                    <div class="item2">修改密码</div>
+                    <div class="item2">手机修改</div>
+                </div>
+            </div>
+            <div class="menu1">
+                <div class="item1">我的收藏</div>
+                <div class="menu2">
+                    <div class="item2">收藏房源</div>
+                    <div class="item2">找房条件</div>
+                </div>
+            </div>
+            <div class="menu1">
+                <div class="item1">我的发布</div>
+                <div class="menu2">
+                    <div class="item2">发布房源</div>
+                    <div class="item2">已发布房源</div>
+                </div>
+            </div>
+        </div>
+        <div class="sheetarea">
+            <div class="bar-with-coattail bar-with-coattail-no-tail h">
+                <div class="middle-out">
+                    <div class="middle">基本信息</div>
+                </div>
+                <div class="headafter"></div>
+                <div class="headbefore"></div>
+            </div>
+            <div class="bar-with-coattail bar-with-coattail-and-head">
+                <div class="tailafter"></div>
+                <div class="tailbefore"></div>
+                <div class="middle-out">
+                    <div class="middle">其他信息</div>
+                </div>
+
+                <div class="headafter"></div>
+                <div class="headbefore"></div>
+            </div>
+            <div class="bar-with-coattail bar-with-coattail-no-head">
+                <div class="tailafter"></div>
+                <div class="tailbefore"></div>
+                <div class="middle-out">
+                    <div class="middle">个人信息</div>
+                </div>
+
+                <div class="headafter"></div>
+                <div class="headbefore"></div>
+            </div>
+            <div></div>
+            <div class="inner">
+                <div class="line line1">
+                    <span class="judge iconfont"></span>
+                    <span class="left">*小区名称：</span>
+                    <div class="Divinput">
+                        <input type="text" id="Community-Name" placeholder="请输入小区名称">
+                    </div>
+                    <div class="Results"></div>
+
+                </div>
+                <div class="line line2">
+                    <span class="judge iconfont"></span>
+                    <span class="left">*区属板块：</span>
+                    <div class="Divinput left">
+                        <input id="District" type="text" placeholder="区属">
+
+                    </div>
+                    <div class="Divinput">
+                        <input id="Plate" type="text" placeholder="板块">
+                    </div>
+                </div>
+                <div class="line line3">
+                    <span class="judge iconfont"></span>
+                    <span class="left">*户型：</span>
+                    <div class="Divinput left">
+                        <input id="Room" type="text">
+                    </div>
+                    <span class="kind">室</span>
+                    <div class="Divinput">
+                        <input id="Living-room" type="text">
+                    </div>
+                    <span class="kind">厅</span>
+                    <div class="Divinput">
+                        <input id="Bathroom" type="text">
+                    </div>
+                    <span class="kind">卫</span>
+                    <div class="Divinput">
+                        <input id="Balcony" type="text">
+                    </div>
+                    <span class="lastkind">阳台</span>
+                </div>
+                <div class="line line4">
+                    <span class="left">*出租形式：</span>
+                    <input class="radios" type="radio" name="rent">
+                    <span class="rentway">整租</span>
+                    <input class="radios right" type="radio" name="rent">
+                    <span class="rentway">合租</span>
+                    <div class="Divinput left">
+                        <input id="roominside" type="text" placeholder="选择卧室内容">
+                    </div>
+                    <div class="Divinput right">
+                        <input id="limits" type="text" placeholder="选择限制条件">
+                    </div>
+                </div>
+                <div class="line line5">
+                    <span class="judge iconfont"></span>
+                    <span class="left">*面积：</span>
+                    <div class="Divinput">
+                        <input id="area" type="text" placeholder="请输入面积（平方米）">
+                    </div>
+                </div>
+                <div class="line line6">
+                    <span class="judge iconfont"></span>
+                    <span class="left">*租金：</span>
+                    <div class="Divinput">
+                        <input id="rental" type="text" placeholder="请输入租金（元/月）">
+                    </div>
+                </div>
+                <div class="line line7">
+                    <span class="left">*付款方式：</span>
+                    <input type="checkbox" class="boxgroup1">
+                    <span class="payway">月付</span>
+                    <input type="checkbox" class="boxgroup1">
+                    <span class="payway">季付</span>
+                    <input type="checkbox" class="boxgroup1">
+                    <span class="payway">半年付</span>
+                    <input type="checkbox" class="boxgroup1">
+                    <span class="payway">年付</span>
+                    <input type="checkbox" class="boxgroup2">
+                    <span class="payway">都可以</span>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+</body>
+
+</html>
+<script src="js/jquery-1.7.2.min.js"></script>
+
+<script src="js/publish.js"></script>
